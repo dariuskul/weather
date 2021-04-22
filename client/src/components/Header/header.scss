@@ -1,0 +1,28 @@
+@import "../../sassStyles/variables";
+@import "../../sassStyles/typography";
+header {
+  background-color: $primary-color;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.representation {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 20%;
+}
+
+h1 {
+  color: $h1-color;
+  font-family: $primary-font;
+  font-weight: bold;
+  font-size: 4vh;
+}
